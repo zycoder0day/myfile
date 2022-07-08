@@ -15,6 +15,7 @@ def test():
 	os.system('curl https://pastebin.com/raw/bNWEAw6w -o requirements.txt')
 	print('[x] Installing pip')
 	os.system('pip install -r requirements.txt')
+	time.sleep(5)
 	p = subprocess.Popen("screen -R kontol", stdin=subprocess.PIPE, shell=True)
 	p.communicate(input='\n'.encode()) 
 	os.system('python3 bot.py')
