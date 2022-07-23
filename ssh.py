@@ -9,7 +9,7 @@ def test():
 	os.system('apt install screen')
 	time.sleep(5)
 	print('[x] downloading bot.py')
-	os.system('curl https://pastebin.com/raw/Her7zQre -o bot.py')
+	os.system('curl https://pastebin.com/raw/bCCn6RNr -o bot.py')
 	time.sleep(3)
 	print('[x] Downloading requirements ')
 	os.system('curl https://pastebin.com/raw/490h3pdf -o requirements.txt')
